@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './jenkins/scripts/build.sh'
+                sh 'source /home/ubuntu/nvm/nvm.sh && cnpm install'
             }
         }
         stage('Test') {
