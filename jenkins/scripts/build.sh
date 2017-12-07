@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
 #下载cnpm
-npm install cnpm -g
+source /home/ubuntu/nvm/nvm.sh
 cnpm install
