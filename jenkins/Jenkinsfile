@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'source /home/ubuntu/nvm/nvm.sh && cnpm install'
+                sh 'npm install'
             }
         }
         stage('Test') {
